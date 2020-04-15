@@ -1,0 +1,1104 @@
+{
+	"info": {
+		"_postman_id": "33d18f6e-290d-4743-a89a-372e4364520e",
+		"name": "Challenge copy",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "web",
+			"item": [
+				{
+					"name": "Class",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "{{url}}class.php",
+							"host": [
+								"{{url}}class",
+								"php"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "test.php",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "{{url}}test.php",
+							"host": [
+								"{{url}}test",
+								"php"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Class Fee Setup",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"className\":1,\n\t\"monthName\":2,\n\t\"amount\":200\n}"
+						},
+						"url": {
+							"raw": "http://localhost/challengeeducation/webapp/api/admin/class.php",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"challengeeducation",
+								"webapp",
+								"api",
+								"admin",
+								"class.php"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Fee",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "{{url}}fee.php",
+							"host": [
+								"{{url}}fee",
+								"php"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Students Details",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}students.php",
+							"host": [
+								"{{url}}students",
+								"php"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Subject",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}subjectSetup.php",
+							"host": [
+								"{{url}}subjectSetup",
+								"php"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "chapter",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"class_id\":1,\n\t\"subject_id\":2,\n\t\"chapter_name\":\"computer\",\n\t\"month_id\":2\n}\n\n"
+						},
+						"url": {
+							"raw": "{{url}}chapter.php",
+							"host": [
+								"{{url}}chapter",
+								"php"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "chapter",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "({url})",
+									"host": [
+										"({url})"
+									]
+								}
+							},
+							"_postman_previewlanguage": "Text",
+							"header": [],
+							"cookie": [],
+							"body": ""
+						}
+					]
+				},
+				{
+					"name": "exam_question_setup",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "[\n    {\n        \"title_id\": 1,\n        \"class_id\": \"\",\n        \"subject_id\": \"\",\n        \"video_id\": 1,\n        \"question\": \"111 question 111\",\n        \"option1\": \"cat\",\n        \"option2\": \"dog\",\n        \"option3\": \"cow\",\n        \"option4\": \"rat\",\n        \"flag\": 1,\n        \"answer\": 2\n    },\n    {\n        \"title_id\": 1,\n        \"class_id\": 1,\n        \"subject_id\": 1,\n        \"video_id\": 1,\n        \"question\": \"222 question 222\",\n        \"option1\": \"cat\",\n        \"option2\": \"dog\",\n        \"option3\": \"cow\",\n        \"option4\": \"rat\",\n        \"flag\": 1,\n        \"answer\": 3\n    }\n]"
+						},
+						"url": {
+							"raw": "{{url}}exam_question_setup.php",
+							"host": [
+								"{{url}}exam_question_setup",
+								"php"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "chapter",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "({url})",
+									"host": [
+										"({url})"
+									]
+								}
+							},
+							"_postman_previewlanguage": "Text",
+							"header": [],
+							"cookie": [],
+							"body": ""
+						}
+					]
+				},
+				{
+					"name": "show_subject.php",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"class_id\": 1\n}"
+						},
+						"url": {
+							"raw": "{{url}}show_subject.php",
+							"host": [
+								"{{url}}show_subject",
+								"php"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "show_subject.php",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"class_id\": 1\n}"
+								},
+								"url": {
+									"raw": "http://localhost/challengeeducation/webapp/api/admin/show_subject.php",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"path": [
+										"challengeeducation",
+										"webapp",
+										"api",
+										"admin",
+										"show_subject.php"
+									]
+								}
+							},
+							"_postman_previewlanguage": "Text",
+							"header": [],
+							"cookie": [],
+							"body": ""
+						},
+						{
+							"name": "show_subject.php",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"class_id\": 1\n}"
+								},
+								"url": {
+									"raw": "http://malhipur.in/api/admin/show_subject.php",
+									"protocol": "http",
+									"host": [
+										"malhipur",
+										"in"
+									],
+									"path": [
+										"api",
+										"admin",
+										"show_subject.php"
+									]
+								}
+							},
+							"_postman_previewlanguage": "Text",
+							"header": [],
+							"cookie": [],
+							"body": ""
+						}
+					]
+				},
+				{
+					"name": "upload_video.php",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "video_upload[]",
+									"type": "file",
+									"src": "/E:/video song/suman like/(HD) Aur Ho Rockstar Full Song - 1080p BluRay.mp4"
+								},
+								{
+									"key": "thumb_upload[]",
+									"type": "file",
+									"src": "/C:/Users/prime/Desktop/img/girl/img (17).jpg"
+								},
+								{
+									"key": "class_id",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "subject_id",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "chapter_id",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "month_id",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "video_name",
+									"value": "Light and reflaction",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "video_desc",
+									"value": "chapter about light and reflection ",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "session",
+									"value": "19-20",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "pdf_upload[]",
+									"type": "file",
+									"src": [
+										"/C:/Users/prime/Desktop/pdf/C & C++.pdf",
+										"/C:/Users/prime/Desktop/pdf/FAQ In C Language.pdf",
+										"/C:/Users/prime/Desktop/pdf/Sybex - SCJP SE 6 (2009).pdf",
+										"/C:/Users/prime/Desktop/pdf/Wrox_Beginning_Java_2_JDK_5_Edition_-_2005_Ivor_Horton.pdf"
+									]
+								},
+								{
+									"key": "video_title",
+									"value": "video title text here ",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{url}}upload_video.php",
+							"host": [
+								"{{url}}upload_video",
+								"php"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add_subject",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"subjectName\":\"demo subject name\",\n\t\"classid\":\"2\",\n\t\"month_id\":\"2\"\n}\n\n\n"
+						},
+						"url": {
+							"raw": "{{url}}subjectSetup.php",
+							"host": [
+								"{{url}}subjectSetup",
+								"php"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "show_month",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}show_month.php",
+							"host": [
+								"{{url}}show_month",
+								"php"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "test",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "[\n    {\n        \"title_id\": 1,\n        \"class_id\": 1,\n        \"question\": \"111 question 111\",\n        \"option1\": \"cat\",\n        \"option2\": \"\",\n        \"option3\": \"cow\",\n        \"option4\": \"rat\",\n        \"flag\": 1,\n        \"answer\": \"  \"\n    },\n    {\n        \"title_id\": 1,\n        \"class_id\": 1,\n        \"question\": \"222 question 222\",\n        \"option1\": \"cat\",\n        \"option2\": \"dog\",\n        \"option3\": \"cow\",\n        \"option4\": \"rat\",\n        \"flag\": 1,\n        \"answer\": 3\n    }\n]"
+						},
+						"url": {
+							"raw": "{{url}}test.php",
+							"host": [
+								"{{url}}test",
+								"php"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "show_chapter",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"class_id\":1,\n\t\"subject_id\":1\n\n}\n\n"
+						},
+						"url": {
+							"raw": "{{url}}show_chapter.php",
+							"host": [
+								"{{url}}show_chapter",
+								"php"
+							]
+						},
+						"description": "for dropdown "
+					},
+					"response": []
+				},
+				{
+					"name": "test2",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": []
+						},
+						"url": {
+							"raw": "{{url}}test2.php?class_id=1&subject_id=1&chapter_id=1&month_id=1&session=19-20&video_name=video_name_one&video_desc=video_description&video_url=../video/video.mp4&thumb=../thumb/img.jpg",
+							"host": [
+								"{{url}}test2",
+								"php"
+							],
+							"query": [
+								{
+									"key": "class_id",
+									"value": "1"
+								},
+								{
+									"key": "subject_id",
+									"value": "1"
+								},
+								{
+									"key": "chapter_id",
+									"value": "1"
+								},
+								{
+									"key": "month_id",
+									"value": "1"
+								},
+								{
+									"key": "session",
+									"value": "19-20"
+								},
+								{
+									"key": "video_name",
+									"value": "video_name_one"
+								},
+								{
+									"key": "video_desc",
+									"value": "video_description"
+								},
+								{
+									"key": "video_url",
+									"value": "../video/video.mp4"
+								},
+								{
+									"key": "thumb",
+									"value": "../thumb/img.jpg"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "up_video_pdf",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "video_upload[]",
+									"type": "file",
+									"src": "/E:/video song/Lovethe Way You Lie Emin --Life--.avi"
+								},
+								{
+									"key": "thumb_upload[]",
+									"type": "file",
+									"src": "/C:/Users/prime/Desktop/img/girl/img (17).jpg"
+								},
+								{
+									"key": "pdf_upload[]",
+									"type": "file",
+									"src": []
+								},
+								{
+									"key": "class_id",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "subject_id",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "chapter_id",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "month_id",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "video_desc",
+									"value": "video description",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{url}}up_video_pdf.php",
+							"host": [
+								"{{url}}up_video_pdf",
+								"php"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "show_video_pdf.php",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}show_video_pdf.php",
+							"host": [
+								"{{url}}show_video_pdf",
+								"php"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "exam_title_master",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"title_name\":\"\"\n}\n\n\n\n"
+						},
+						"url": {
+							"raw": "{{url}}exam_title_master.php",
+							"host": [
+								"{{url}}exam_title_master",
+								"php"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "exam_setup.php",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"title_id\":\"2\",\n\t\"start_time\":\"2019-08-22 06:00:00\",\n\t\"end_time\":\"2019-08-22 09:20:00\"\n\t\n}\n"
+						},
+						"url": {
+							"raw": "{{url}}exam_setup.php",
+							"host": [
+								"{{url}}exam_setup",
+								"php"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "week_question.php",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\t\"title_id\" :\"1\",\r\n\t\"class_id\" :\"1\",\r\n\t\"question\" :\"question demo text?\",\r\n\t\"option1\" :\"option a\",\r\n\t\"option2\" :\"option b\",\r\n\t\"option3\" :\"option c\",\r\n\t\"option4\" :\"option d\",\r\n\t\"answer\" :\"a\"\r\n}\r\n"
+						},
+						"url": {
+							"raw": "{{url}}week_question.php",
+							"host": [
+								"{{url}}week_question",
+								"php"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Android",
+			"item": [
+				{
+					"name": "Signup",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\" : \"akbar1991ali@yahoo.com\",\r\n    \"password\" : \"123456\",\r\n    \"fcm\" : \"sdf3456345\",\r\n    \"deviceid\" : \"asdf8768dfmb\",\r\n    \"first_name\":\"akbar\",\r\n    \"last_name\":\"ali\",\r\n    \"contact\":\"9852750185\",\r\n    \"class_id\":1,\r\n    \"address\":\"Bengaluru, Karnatka\",\r\n    \"referral_code\":\"\"\r\n  }"
+						},
+						"url": {
+							"raw": "{{url}}signup.php",
+							"host": [
+								"{{url}}signup",
+								"php"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Referral Code",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"referral_code\":\"swedr\"\n}"
+						},
+						"url": {
+							"raw": "{{url}}referral.php",
+							"host": [
+								"{{url}}referral",
+								"php"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "chapter_video",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"auth_key\":\"dfd5b89c8e2fb02ceda3ddcdefa00f8c\",\n\t\"chapter_id\":\"1\"\n\n}\n"
+						},
+						"url": {
+							"raw": "{{url}}video.php",
+							"host": [
+								"{{url}}video",
+								"php"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Login",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\" : \"akbar1991ali@yahoo.com\",\r\n    \"password\" : \"123456\",\r\n    \"fcm\" : \"sdf3456345\",\r\n    \"deviceid\" : \"asdf8768dfmb\",\r\n    \"route\":1\r\n  }"
+						},
+						"url": {
+							"raw": "{{url}}login.php",
+							"host": [
+								"{{url}}login",
+								"php"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Class",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}class.php",
+							"host": [
+								"{{url}}class",
+								"php"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Logout",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"auth_key\":\"724b4b98cada00062b1781d7ced9649b\"\n}"
+						},
+						"url": {
+							"raw": "{{url}}logout.php",
+							"host": [
+								"{{url}}logout",
+								"php"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Month",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"auth_key\":\"5f8eb4a9788035653beff1cdb9975671\"\n}"
+						},
+						"url": {
+							"raw": "{{url}}SelectMonth.php",
+							"host": [
+								"{{url}}SelectMonth",
+								"php"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Select Subject",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"auth_key\":\"d6a36a12ce24ef10daa4277162a635d3\",\n\t\"month_id\":\"2\"\n}"
+						},
+						"url": {
+							"raw": "{{url}}SelectSubject.php",
+							"host": [
+								"{{url}}SelectSubject",
+								"php"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "submit_exam.php",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"auth_key\": \"6c1132bceee01dbc411e7882b06cfd93\",\r\n    \"title_id\": \"8\",\r\n    \"error\": false,\r\n    \"data\": [\r\n        {\r\n            \"question_id\": \"1\",\r\n            \"answer\": \"3\"\r\n        },\r\n        {\r\n            \"question_id\": \"2\",\r\n            \"answer\": \"4\"\r\n        },\r\n        {\r\n            \"question_id\": \"3\",\r\n            \"answer\": \"2\"\r\n        },\r\n        {\r\n            \"question_id\": \"4\",\r\n            \"answer\": \"3\"\r\n        }\r\n    ]\r\n}"
+						},
+						"url": {
+							"raw": "{{url}}submit_exam.php",
+							"host": [
+								"{{url}}submit_exam",
+								"php"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "student_result.php",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"auth_key\": \"6c1132bceee01dbc411e7882b06cfd93\",\r\n    \"title_id\": \"8\",\r\n    \"error\": false,\r\n    \"data\": [\r\n        {\r\n            \"question_id\": \"1\",\r\n            \"answer\": \"3\"\r\n        },\r\n        {\r\n            \"question_id\": \"2\",\r\n            \"answer\": \"4\"\r\n        },\r\n        {\r\n            \"question_id\": \"3\",\r\n            \"answer\": \"2\"\r\n        },\r\n        {\r\n            \"question_id\": \"4\",\r\n            \"answer\": \"3\"\r\n        }\r\n    ]\r\n}"
+						},
+						"url": {
+							"raw": "{{url}}submit_exam.php",
+							"host": [
+								"{{url}}submit_exam",
+								"php"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "chapter",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"auth_key\":\"42338a7485262abaea3f369f791ecc9c\",\n\t\"subject_id\":\"7\"\n}\n\n"
+						},
+						"url": {
+							"raw": "{{url}}chapter.php",
+							"host": [
+								"{{url}}chapter",
+								"php"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "topic_exam_question.php",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"auth_key\":\"9af6864795f835033588d0d2e67e4b2a\",\n\t\"video_id\":\"1\"\n}"
+						},
+						"url": {
+							"raw": "{{url}}topic_exam_question.php",
+							"host": [
+								"{{url}}topic_exam_question",
+								"php"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "exam_title.php",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"auth_key\":\"2645bc13636ecd6b5b9a3a1f14cecd32\"\n}"
+						},
+						"url": {
+							"raw": "{{url}}exam_title.php",
+							"host": [
+								"{{url}}exam_title",
+								"php"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "exam_question.php",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"auth_key\":\"6c1132bceee01dbc411e7882b06cfd93\",\n\t\"title_id\":\"1\"\n}"
+						},
+						"url": {
+							"raw": "{{url}}exam_question.php",
+							"host": [
+								"{{url}}exam_question",
+								"php"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

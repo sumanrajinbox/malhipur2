@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"path": "lib\\classes"
+		},
+		{
+			"path": "api"
+		},
+		{
+			"name": "webapp",
+			"path": "."
+		}
+	],
+	"settings": {
+		"editor.formatOnPaste": true,
+		"editor.formatOnType": true,
+		"workbench.colorTheme": "Default Dark+",
+		"scm.defaultViewMode": "tree",
+		"guides.stack.width": 3,
+		"guides.normal.width": 3,
+		"guides.active.width": 3
+	}
+}

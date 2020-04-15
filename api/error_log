@@ -1,0 +1,138 @@
+[16-Jan-2020 21:55:05 Asia/Calcutta] PHP Notice:  Undefined variable: student_rank_data in /home/jadt0ilg3kwl/public_html/api/student_result.php on line 55
+[17-Jan-2020 10:00:41 Asia/Calcutta] PHP Notice:  Undefined variable: student_rank_data in /home/jadt0ilg3kwl/public_html/api/student_result.php on line 55
+[17-Jan-2020 10:01:58 Asia/Calcutta] PHP Notice:  Undefined variable: student_rank_data in /home/jadt0ilg3kwl/public_html/api/student_result.php on line 55
+[17-Jan-2020 19:21:18 Asia/Calcutta] PHP Notice:  Undefined variable: student_rank_data in /home/jadt0ilg3kwl/public_html/api/student_result.php on line 55
+[17-Jan-2020 19:21:46 Asia/Calcutta] PHP Notice:  Undefined variable: student_rank_data in /home/jadt0ilg3kwl/public_html/api/student_result.php on line 55
+[17-Jan-2020 19:22:22 Asia/Calcutta] PHP Notice:  Undefined variable: student_rank_data in /home/jadt0ilg3kwl/public_html/api/student_result.php on line 55
+[19-Jan-2020 10:50:33 Asia/Calcutta] PHP Notice:  Undefined variable: top_data in /home/jadt0ilg3kwl/public_html/api/student_result.php on line 73
+[19-Jan-2020 10:50:33 Asia/Calcutta] PHP Notice:  Undefined variable: student_rank_data in /home/jadt0ilg3kwl/public_html/api/student_result.php on line 82
+[19-Jan-2020 15:03:45 Asia/Calcutta] PHP Notice:  Undefined variable: top_data in /home/jadt0ilg3kwl/public_html/api/student_result.php on line 73
+[19-Jan-2020 15:03:45 Asia/Calcutta] PHP Notice:  Undefined variable: student_rank_data in /home/jadt0ilg3kwl/public_html/api/student_result.php on line 82
+[21-Jan-2020 11:41:45 Asia/Calcutta] PHP Notice:  Undefined variable: top_data in /home/jadt0ilg3kwl/public_html/api/student_result.php on line 73
+[21-Jan-2020 11:41:45 Asia/Calcutta] PHP Notice:  Undefined variable: student_rank_data in /home/jadt0ilg3kwl/public_html/api/student_result.php on line 82
+[02-Feb-2020 19:00:54 Asia/Calcutta] PHP Notice:  Undefined variable: top_data in /home/jadt0ilg3kwl/public_html/api/student_result.php on line 73
+[02-Feb-2020 19:00:54 Asia/Calcutta] PHP Notice:  Undefined variable: student_rank_data in /home/jadt0ilg3kwl/public_html/api/student_result.php on line 82
+[13-Feb-2020 18:43:42 Asia/Calcutta] PHP Notice:  Undefined variable: top_data in /home/jadt0ilg3kwl/public_html/api/student_result.php on line 73
+[13-Feb-2020 18:43:42 Asia/Calcutta] PHP Notice:  Undefined variable: student_rank_data in /home/jadt0ilg3kwl/public_html/api/student_result.php on line 82
+[17-Feb-2020 10:58:37 Asia/Calcutta] PHP Notice:  Undefined offset: 11 in /home/jadt0ilg3kwl/public_html/api/submit_exam.php on line 63
+[17-Feb-2020 10:58:37 Asia/Calcutta] PHP Notice:  Undefined offset: 11 in /home/jadt0ilg3kwl/public_html/api/submit_exam.php on line 64
+[17-Feb-2020 11:19:02 Asia/Calcutta] PHP Notice:  Undefined offset: 11 in /home/jadt0ilg3kwl/public_html/api/submit_exam.php on line 63
+[17-Feb-2020 11:19:02 Asia/Calcutta] PHP Notice:  Undefined offset: 11 in /home/jadt0ilg3kwl/public_html/api/submit_exam.php on line 64
+[17-Feb-2020 11:33:00 Asia/Calcutta] PHP Notice:  Undefined offset: 11 in /home/jadt0ilg3kwl/public_html/api/submit_exam.php on line 63
+[17-Feb-2020 11:33:00 Asia/Calcutta] PHP Notice:  Undefined offset: 11 in /home/jadt0ilg3kwl/public_html/api/submit_exam.php on line 64
+[18-Feb-2020 21:10:05 Asia/Calcutta] PHP Notice:  Undefined variable: top_data in /home/jadt0ilg3kwl/public_html/api/student_result.php on line 73
+[18-Feb-2020 21:10:05 Asia/Calcutta] PHP Notice:  Undefined variable: student_rank_data in /home/jadt0ilg3kwl/public_html/api/student_result.php on line 82
+[18-Feb-2020 21:10:57 Asia/Calcutta] PHP Notice:  Undefined variable: top_data in /home/jadt0ilg3kwl/public_html/api/student_result.php on line 73
+[18-Feb-2020 21:10:57 Asia/Calcutta] PHP Notice:  Undefined variable: student_rank_data in /home/jadt0ilg3kwl/public_html/api/student_result.php on line 82
+[18-Feb-2020 21:14:52 Asia/Calcutta] PHP Notice:  Undefined variable: top_data in /home/jadt0ilg3kwl/public_html/api/student_result.php on line 73
+[18-Feb-2020 21:14:52 Asia/Calcutta] PHP Notice:  Undefined variable: student_rank_data in /home/jadt0ilg3kwl/public_html/api/student_result.php on line 82
+[19-Feb-2020 15:26:31 Asia/Calcutta] PHP Notice:  Undefined variable: top_data in /home/jadt0ilg3kwl/public_html/api/student_result.php on line 73
+[19-Feb-2020 15:26:31 Asia/Calcutta] PHP Notice:  Undefined variable: student_rank_data in /home/jadt0ilg3kwl/public_html/api/student_result.php on line 82
+[19-Feb-2020 15:27:03 Asia/Calcutta] PHP Notice:  Undefined variable: top_data in /home/jadt0ilg3kwl/public_html/api/student_result.php on line 73
+[19-Feb-2020 15:27:03 Asia/Calcutta] PHP Notice:  Undefined variable: student_rank_data in /home/jadt0ilg3kwl/public_html/api/student_result.php on line 82
+[19-Feb-2020 15:27:38 Asia/Calcutta] PHP Notice:  Undefined variable: top_data in /home/jadt0ilg3kwl/public_html/api/student_result.php on line 73
+[19-Feb-2020 15:27:38 Asia/Calcutta] PHP Notice:  Undefined variable: student_rank_data in /home/jadt0ilg3kwl/public_html/api/student_result.php on line 82
+[19-Feb-2020 18:09:26 Asia/Calcutta] PHP Notice:  Undefined variable: top_data in /home/jadt0ilg3kwl/public_html/api/student_result.php on line 73
+[19-Feb-2020 18:09:26 Asia/Calcutta] PHP Notice:  Undefined variable: student_rank_data in /home/jadt0ilg3kwl/public_html/api/student_result.php on line 82
+[25-Feb-2020 08:34:00 Asia/Calcutta] PHP Notice:  Undefined variable: top_data in /home/jadt0ilg3kwl/public_html/api/student_result.php on line 73
+[25-Feb-2020 08:34:00 Asia/Calcutta] PHP Notice:  Undefined variable: student_rank_data in /home/jadt0ilg3kwl/public_html/api/student_result.php on line 82
+[29-Feb-2020 09:15:00 Asia/Calcutta] PHP Notice:  Undefined variable: top_data in /home/jadt0ilg3kwl/public_html/api/student_result.php on line 73
+[29-Feb-2020 09:15:00 Asia/Calcutta] PHP Notice:  Undefined variable: student_rank_data in /home/jadt0ilg3kwl/public_html/api/student_result.php on line 82
+[29-Feb-2020 09:18:45 Asia/Calcutta] PHP Notice:  Undefined variable: top_data in /home/jadt0ilg3kwl/public_html/api/student_result.php on line 73
+[29-Feb-2020 09:18:45 Asia/Calcutta] PHP Notice:  Undefined variable: student_rank_data in /home/jadt0ilg3kwl/public_html/api/student_result.php on line 82
+[29-Feb-2020 10:32:40 Asia/Calcutta] PHP Notice:  Undefined variable: top_data in /home/jadt0ilg3kwl/public_html/api/student_result.php on line 73
+[29-Feb-2020 10:32:40 Asia/Calcutta] PHP Notice:  Undefined variable: student_rank_data in /home/jadt0ilg3kwl/public_html/api/student_result.php on line 82
+[29-Feb-2020 10:48:07 Asia/Calcutta] PHP Notice:  Undefined variable: top_data in /home/jadt0ilg3kwl/public_html/api/student_result.php on line 73
+[29-Feb-2020 10:48:07 Asia/Calcutta] PHP Notice:  Undefined variable: student_rank_data in /home/jadt0ilg3kwl/public_html/api/student_result.php on line 82
+[29-Feb-2020 11:02:49 Asia/Calcutta] PHP Notice:  Undefined variable: top_data in /home/jadt0ilg3kwl/public_html/api/student_result.php on line 73
+[29-Feb-2020 11:02:49 Asia/Calcutta] PHP Notice:  Undefined variable: student_rank_data in /home/jadt0ilg3kwl/public_html/api/student_result.php on line 82
+[01-Mar-2020 14:01:25 Asia/Calcutta] PHP Notice:  Undefined variable: top_data in /home/jadt0ilg3kwl/public_html/api/student_result.php on line 73
+[01-Mar-2020 14:01:25 Asia/Calcutta] PHP Notice:  Undefined variable: student_rank_data in /home/jadt0ilg3kwl/public_html/api/student_result.php on line 82
+[04-Mar-2020 11:38:40 Asia/Calcutta] PHP Notice:  Undefined variable: top_data in /home/jadt0ilg3kwl/public_html/api/student_result.php on line 73
+[04-Mar-2020 11:38:40 Asia/Calcutta] PHP Notice:  Undefined variable: student_rank_data in /home/jadt0ilg3kwl/public_html/api/student_result.php on line 82
+[04-Mar-2020 11:38:45 Asia/Calcutta] PHP Notice:  Undefined variable: top_data in /home/jadt0ilg3kwl/public_html/api/student_result.php on line 73
+[04-Mar-2020 11:38:45 Asia/Calcutta] PHP Notice:  Undefined variable: student_rank_data in /home/jadt0ilg3kwl/public_html/api/student_result.php on line 82
+[04-Mar-2020 19:08:27 Asia/Calcutta] PHP Notice:  Undefined variable: top_data in /home/jadt0ilg3kwl/public_html/api/student_result.php on line 73
+[04-Mar-2020 19:08:27 Asia/Calcutta] PHP Notice:  Undefined variable: student_rank_data in /home/jadt0ilg3kwl/public_html/api/student_result.php on line 82
+[05-Mar-2020 15:21:00 Asia/Calcutta] PHP Notice:  Undefined variable: top_data in /home/jadt0ilg3kwl/public_html/api/student_result.php on line 73
+[05-Mar-2020 15:21:00 Asia/Calcutta] PHP Notice:  Undefined variable: student_rank_data in /home/jadt0ilg3kwl/public_html/api/student_result.php on line 82
+[06-Mar-2020 19:46:46 Asia/Calcutta] PHP Notice:  Undefined variable: top_data in /home/jadt0ilg3kwl/public_html/api/student_result.php on line 73
+[06-Mar-2020 19:46:46 Asia/Calcutta] PHP Notice:  Undefined variable: student_rank_data in /home/jadt0ilg3kwl/public_html/api/student_result.php on line 82
+[06-Mar-2020 20:40:20 Asia/Calcutta] PHP Notice:  Undefined variable: top_data in /home/jadt0ilg3kwl/public_html/api/student_result.php on line 73
+[06-Mar-2020 20:40:20 Asia/Calcutta] PHP Notice:  Undefined variable: student_rank_data in /home/jadt0ilg3kwl/public_html/api/student_result.php on line 82
+[09-Mar-2020 15:51:48 Asia/Calcutta] PHP Notice:  Undefined variable: top_data in /home/jadt0ilg3kwl/public_html/api/student_result.php on line 73
+[09-Mar-2020 15:51:49 Asia/Calcutta] PHP Notice:  Undefined variable: student_rank_data in /home/jadt0ilg3kwl/public_html/api/student_result.php on line 82
+[09-Mar-2020 21:59:26 Asia/Calcutta] PHP Notice:  Undefined variable: top_data in /home/jadt0ilg3kwl/public_html/api/student_result.php on line 73
+[09-Mar-2020 21:59:26 Asia/Calcutta] PHP Notice:  Undefined variable: student_rank_data in /home/jadt0ilg3kwl/public_html/api/student_result.php on line 82
+[11-Mar-2020 23:04:14 Asia/Calcutta] PHP Notice:  Undefined variable: top_data in /home/jadt0ilg3kwl/public_html/api/student_result.php on line 73
+[11-Mar-2020 23:04:14 Asia/Calcutta] PHP Notice:  Undefined variable: student_rank_data in /home/jadt0ilg3kwl/public_html/api/student_result.php on line 82
+[14-Mar-2020 17:50:57 Asia/Calcutta] PHP Notice:  Undefined variable: top_data in /home/jadt0ilg3kwl/public_html/api/student_result.php on line 73
+[14-Mar-2020 17:50:57 Asia/Calcutta] PHP Notice:  Undefined variable: student_rank_data in /home/jadt0ilg3kwl/public_html/api/student_result.php on line 82
+[16-Mar-2020 21:29:28 Asia/Calcutta] PHP Warning:  Illegal string offset 'user_id' in /home/jadt0ilg3kwl/public_html/api/SelectMonth.php on line 9
+[19-Mar-2020 15:04:15 Asia/Calcutta] PHP Notice:  Undefined variable: top_data in /home/jadt0ilg3kwl/public_html/api/student_result.php on line 73
+[19-Mar-2020 15:04:15 Asia/Calcutta] PHP Notice:  Undefined variable: student_rank_data in /home/jadt0ilg3kwl/public_html/api/student_result.php on line 82
+[19-Mar-2020 15:05:30 Asia/Calcutta] PHP Notice:  Undefined variable: top_data in /home/jadt0ilg3kwl/public_html/api/student_result.php on line 73
+[19-Mar-2020 15:05:30 Asia/Calcutta] PHP Notice:  Undefined variable: student_rank_data in /home/jadt0ilg3kwl/public_html/api/student_result.php on line 82
+[19-Mar-2020 15:17:57 Asia/Calcutta] PHP Notice:  Undefined variable: top_data in /home/jadt0ilg3kwl/public_html/api/student_result.php on line 73
+[19-Mar-2020 15:17:57 Asia/Calcutta] PHP Notice:  Undefined variable: student_rank_data in /home/jadt0ilg3kwl/public_html/api/student_result.php on line 82
+[20-Mar-2020 10:04:18 Asia/Calcutta] PHP Notice:  Undefined variable: top_data in /home/jadt0ilg3kwl/public_html/api/student_result.php on line 73
+[20-Mar-2020 10:04:18 Asia/Calcutta] PHP Notice:  Undefined variable: student_rank_data in /home/jadt0ilg3kwl/public_html/api/student_result.php on line 82
+[22-Mar-2020 16:02:32 Asia/Calcutta] PHP Notice:  Undefined variable: top_data in /home/jadt0ilg3kwl/public_html/api/student_result.php on line 73
+[22-Mar-2020 16:02:32 Asia/Calcutta] PHP Notice:  Undefined variable: student_rank_data in /home/jadt0ilg3kwl/public_html/api/student_result.php on line 82
+[01-Apr-2020 23:24:15 Asia/Calcutta] PHP Warning:  Illegal string offset 'user_id' in /home/jadt0ilg3kwl/public_html/api/SelectMonth.php on line 9
+[01-Apr-2020 23:24:35 Asia/Calcutta] PHP Warning:  Illegal string offset 'user_id' in /home/jadt0ilg3kwl/public_html/api/SelectMonth.php on line 9
+[01-Apr-2020 23:24:40 Asia/Calcutta] PHP Warning:  Illegal string offset 'user_id' in /home/jadt0ilg3kwl/public_html/api/referral.php on line 25
+[01-Apr-2020 23:24:40 Asia/Calcutta] PHP Warning:  Illegal string offset 'user_id' in /home/jadt0ilg3kwl/public_html/api/referral.php on line 37
+[01-Apr-2020 23:24:47 Asia/Calcutta] PHP Warning:  Illegal string offset 'user_id' in /home/jadt0ilg3kwl/public_html/api/SelectMonth.php on line 9
+[01-Apr-2020 23:24:48 Asia/Calcutta] PHP Warning:  Illegal string offset 'user_id' in /home/jadt0ilg3kwl/public_html/api/SelectMonth.php on line 9
+[01-Apr-2020 23:24:58 Asia/Calcutta] PHP Warning:  Illegal string offset 'user_id' in /home/jadt0ilg3kwl/public_html/api/SelectMonth.php on line 9
+[01-Apr-2020 23:25:20 Asia/Calcutta] PHP Warning:  Illegal string offset 'user_id' in /home/jadt0ilg3kwl/public_html/api/SelectMonth.php on line 9
+[01-Apr-2020 23:25:23 Asia/Calcutta] PHP Warning:  Illegal string offset 'user_id' in /home/jadt0ilg3kwl/public_html/api/SelectMonth.php on line 9
+[01-Apr-2020 23:25:48 Asia/Calcutta] PHP Warning:  Illegal string offset 'user_id' in /home/jadt0ilg3kwl/public_html/api/SelectMonth.php on line 9
+[01-Apr-2020 23:25:56 Asia/Calcutta] PHP Warning:  Illegal string offset 'user_id' in /home/jadt0ilg3kwl/public_html/api/SelectMonth.php on line 9
+[01-Apr-2020 23:27:26 Asia/Calcutta] PHP Warning:  Illegal string offset 'user_id' in /home/jadt0ilg3kwl/public_html/api/SelectMonth.php on line 9
+[01-Apr-2020 23:27:33 Asia/Calcutta] PHP Warning:  Illegal string offset 'user_id' in /home/jadt0ilg3kwl/public_html/api/SelectMonth.php on line 9
+[02-Apr-2020 17:56:39 Asia/Calcutta] PHP Notice:  Undefined variable: top_data in /home/jadt0ilg3kwl/public_html/api/student_result.php on line 73
+[02-Apr-2020 17:56:39 Asia/Calcutta] PHP Notice:  Undefined variable: student_rank_data in /home/jadt0ilg3kwl/public_html/api/student_result.php on line 82
+[02-Apr-2020 18:54:14 Asia/Calcutta] PHP Notice:  Undefined variable: top_data in /home/jadt0ilg3kwl/public_html/api/student_result.php on line 73
+[02-Apr-2020 18:54:14 Asia/Calcutta] PHP Notice:  Undefined variable: student_rank_data in /home/jadt0ilg3kwl/public_html/api/student_result.php on line 82
+[03-Apr-2020 08:21:36 Asia/Calcutta] PHP Notice:  Undefined variable: top_data in /home/jadt0ilg3kwl/public_html/api/student_result.php on line 73
+[03-Apr-2020 08:21:36 Asia/Calcutta] PHP Notice:  Undefined variable: student_rank_data in /home/jadt0ilg3kwl/public_html/api/student_result.php on line 82
+[03-Apr-2020 08:21:36 Asia/Calcutta] PHP Notice:  Undefined variable: top_data in /home/jadt0ilg3kwl/public_html/api/student_result.php on line 73
+[03-Apr-2020 08:21:36 Asia/Calcutta] PHP Notice:  Undefined variable: student_rank_data in /home/jadt0ilg3kwl/public_html/api/student_result.php on line 82
+[03-Apr-2020 16:49:18 Asia/Calcutta] PHP Notice:  Undefined variable: top_data in /home/jadt0ilg3kwl/public_html/api/student_result.php on line 73
+[03-Apr-2020 16:49:18 Asia/Calcutta] PHP Notice:  Undefined variable: student_rank_data in /home/jadt0ilg3kwl/public_html/api/student_result.php on line 82
+[04-Apr-2020 18:52:15 Asia/Calcutta] PHP Notice:  Undefined variable: top_data in /home/jadt0ilg3kwl/public_html/api/student_result.php on line 73
+[04-Apr-2020 18:52:15 Asia/Calcutta] PHP Notice:  Undefined variable: student_rank_data in /home/jadt0ilg3kwl/public_html/api/student_result.php on line 82
+[06-Apr-2020 13:16:05 Asia/Calcutta] PHP Notice:  Undefined variable: top_data in /home/jadt0ilg3kwl/public_html/api/student_result.php on line 73
+[06-Apr-2020 13:16:05 Asia/Calcutta] PHP Notice:  Undefined variable: student_rank_data in /home/jadt0ilg3kwl/public_html/api/student_result.php on line 82
+[06-Apr-2020 13:16:41 Asia/Calcutta] PHP Notice:  Undefined variable: top_data in /home/jadt0ilg3kwl/public_html/api/student_result.php on line 73
+[06-Apr-2020 13:16:41 Asia/Calcutta] PHP Notice:  Undefined variable: student_rank_data in /home/jadt0ilg3kwl/public_html/api/student_result.php on line 82
+[08-Apr-2020 08:01:39 Asia/Calcutta] PHP Notice:  Undefined variable: top_data in /home/jadt0ilg3kwl/public_html/api/student_result.php on line 73
+[08-Apr-2020 08:01:39 Asia/Calcutta] PHP Notice:  Undefined variable: student_rank_data in /home/jadt0ilg3kwl/public_html/api/student_result.php on line 82
+[09-Apr-2020 16:23:59 Asia/Calcutta] PHP Notice:  Undefined variable: top_data in /home/jadt0ilg3kwl/public_html/api/student_result.php on line 73
+[09-Apr-2020 16:23:59 Asia/Calcutta] PHP Notice:  Undefined variable: student_rank_data in /home/jadt0ilg3kwl/public_html/api/student_result.php on line 82
+[09-Apr-2020 16:39:39 Asia/Calcutta] PHP Notice:  Undefined variable: top_data in /home/jadt0ilg3kwl/public_html/api/student_result.php on line 73
+[09-Apr-2020 16:39:39 Asia/Calcutta] PHP Notice:  Undefined variable: student_rank_data in /home/jadt0ilg3kwl/public_html/api/student_result.php on line 82
+[09-Apr-2020 16:40:59 Asia/Calcutta] PHP Notice:  Undefined variable: top_data in /home/jadt0ilg3kwl/public_html/api/student_result.php on line 73
+[09-Apr-2020 16:40:59 Asia/Calcutta] PHP Notice:  Undefined variable: student_rank_data in /home/jadt0ilg3kwl/public_html/api/student_result.php on line 82
+[09-Apr-2020 19:43:15 Asia/Calcutta] PHP Notice:  Undefined variable: top_data in /home/jadt0ilg3kwl/public_html/api/student_result.php on line 73
+[09-Apr-2020 19:43:15 Asia/Calcutta] PHP Notice:  Undefined variable: student_rank_data in /home/jadt0ilg3kwl/public_html/api/student_result.php on line 82
+[09-Apr-2020 21:23:15 Asia/Calcutta] PHP Notice:  Undefined variable: top_data in /home/jadt0ilg3kwl/public_html/api/student_result.php on line 73
+[09-Apr-2020 21:23:15 Asia/Calcutta] PHP Notice:  Undefined variable: student_rank_data in /home/jadt0ilg3kwl/public_html/api/student_result.php on line 82
+[11-Apr-2020 01:14:47 Asia/Calcutta] PHP Notice:  Undefined variable: top_data in /home/jadt0ilg3kwl/public_html/api/student_result.php on line 73
+[11-Apr-2020 01:14:47 Asia/Calcutta] PHP Notice:  Undefined variable: student_rank_data in /home/jadt0ilg3kwl/public_html/api/student_result.php on line 82
+[11-Apr-2020 01:14:56 Asia/Calcutta] PHP Notice:  Undefined variable: top_data in /home/jadt0ilg3kwl/public_html/api/student_result.php on line 73
+[11-Apr-2020 01:14:56 Asia/Calcutta] PHP Notice:  Undefined variable: student_rank_data in /home/jadt0ilg3kwl/public_html/api/student_result.php on line 82
+[13-Apr-2020 00:07:55 Asia/Calcutta] PHP Notice:  Undefined variable: top_data in /home/jadt0ilg3kwl/public_html/api/student_result.php on line 73
+[13-Apr-2020 00:07:55 Asia/Calcutta] PHP Notice:  Undefined variable: student_rank_data in /home/jadt0ilg3kwl/public_html/api/student_result.php on line 82
+[13-Apr-2020 00:19:25 Asia/Calcutta] PHP Notice:  Undefined variable: top_data in /home/jadt0ilg3kwl/public_html/api/student_result.php on line 73
+[13-Apr-2020 00:19:25 Asia/Calcutta] PHP Notice:  Undefined variable: student_rank_data in /home/jadt0ilg3kwl/public_html/api/student_result.php on line 82
+[13-Apr-2020 00:30:50 Asia/Calcutta] PHP Notice:  Undefined variable: top_data in /home/jadt0ilg3kwl/public_html/api/student_result.php on line 73
+[13-Apr-2020 00:30:50 Asia/Calcutta] PHP Notice:  Undefined variable: student_rank_data in /home/jadt0ilg3kwl/public_html/api/student_result.php on line 82
+[13-Apr-2020 00:36:04 Asia/Calcutta] PHP Notice:  Undefined variable: top_data in /home/jadt0ilg3kwl/public_html/api/student_result.php on line 73
+[13-Apr-2020 00:36:04 Asia/Calcutta] PHP Notice:  Undefined variable: student_rank_data in /home/jadt0ilg3kwl/public_html/api/student_result.php on line 82
+[13-Apr-2020 00:51:28 Asia/Calcutta] PHP Notice:  Undefined variable: top_data in /home/jadt0ilg3kwl/public_html/api/student_result.php on line 73
+[13-Apr-2020 00:51:28 Asia/Calcutta] PHP Notice:  Undefined variable: student_rank_data in /home/jadt0ilg3kwl/public_html/api/student_result.php on line 82
+[13-Apr-2020 10:42:51 Asia/Calcutta] PHP Notice:  Undefined variable: top_data in /home/jadt0ilg3kwl/public_html/api/student_result.php on line 73
+[13-Apr-2020 10:42:51 Asia/Calcutta] PHP Notice:  Undefined variable: student_rank_data in /home/jadt0ilg3kwl/public_html/api/student_result.php on line 82
