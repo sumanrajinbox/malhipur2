@@ -20,7 +20,7 @@ $data=json_decode(file_get_contents('php://input'), true);
 //$auth=$conn->auth($data['auth_key']);
 
 if($_SERVER['REQUEST_METHOD']==='POST'&& isset($data['email'])) {
-	$check_email = $conn->select_one_row('select * from users where email = "'.$data['email'].'"');
+	$check_email = $conn->select_one_row('select * from users where email = "'.$data['email'].'" and active = 1');
 	$user_id=$check_email['id'];
 	
 	if($check_email) {
@@ -35,10 +35,11 @@ if($_SERVER['REQUEST_METHOD']==='POST'&& isset($data['email'])) {
 		}
 		$mask_email= obfuscate_email($check_email['email']) . " \n";
 	
-		$to=$conn->select_one_row('select u.*,p.* from users as u  left join profile as p on p.user_id = u.id where u.id = "'.$user_id.'"');		
+		$to_data=$conn->select_one_row('select u.*,p.* from users as u  left join profile as p on p.user_id = u.id where u.id = "'.$user_id.'" and u.active = 1');		
+	// print_r($to);
+	// die("critical stop");
 	
-	
-		$first_name=$to['first_name'];
+		$first_name=$to_data['first_name'];
 		$generate_otp=$forgot_class->otp_generate(5, $first_name, 2);
 		$verify_otp=$forgot_class->verify_otp($conn, $generate_otp, $user_id);
 		while($generate_otp==$verify_otp['otp']) {
@@ -58,15 +59,13 @@ if($_SERVER['REQUEST_METHOD']==='POST'&& isset($data['email'])) {
 					$update_otp=$conn->only_query($update_sql,true);
 					//echo 'otp updated';		
 		}
-
 		else {
-
 			$insert_otp=$conn->only_query('INSERT INTO `forgot_password`(`id`, `user_id`, `otp`, `active`, `dated`) VALUES ("","'.$user_id.'","'.$generate_otp.'",1,"'.date("Y-m-d H:i:s").'")');
 			//echo 'otp inserted';		
 		
 		}
 
-		$to = $to['email'];
+		$to = $to_data['email'];
 $subject = 'OTP by challenge education ';
 $from = 'challengeeducation@malhipur.in';
  
@@ -93,6 +92,7 @@ if($send_result){
 	$response["error"]=FALSE;
 		$response["message"]="OTP has been sent in your Registered Email id ".$mask_email;
 		// $response["email"] = $mask_email;
+		 $response["user_id"] = $to_data['user_id'];
 			$response["email"] = $check_email['email'];
 		header('HTTP/1.1 200 success', true, 200);
 		header('Content-Type: application/json');
